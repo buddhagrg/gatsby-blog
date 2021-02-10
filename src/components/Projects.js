@@ -35,7 +35,7 @@ export default function Projects() {
         projects.length > 0 ? (
           <Row>
             {projects.map((project, index) => (
-              <Col key={index} className="col-sm-12 col-md-6 mb-1 mb-md-0">
+              <Col key={index} className="col-12 col-md-6 mb-1 mb-md-0">
                 <Card className="h-100 project-card">
                   <CardBody>
                     <CardTitle tag="h5">{project.node.frontmatter.title}</CardTitle>

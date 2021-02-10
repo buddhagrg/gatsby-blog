@@ -7,7 +7,6 @@ export default function Hero() {
     query{
       markdownRemark(frontmatter: {category: {eq: "hero index"}}) {
         frontmatter {
-          title
           intro
           content
         }
@@ -20,7 +19,6 @@ export default function Hero() {
   return (
     <div className="section-parent-wrapper">
       <div className="hero-section-wrapper">
-        {/* <h6 className="hero-title">{data.markdownRemark.frontmatter.title}</h6> */}
         <h3 className="hero-intro">{data.markdownRemark.frontmatter.intro}</h3>
         <div className="hero-content">{data.markdownRemark.frontmatter.content}</div>
         <div className="mt-3" dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />

@@ -1,8 +1,7 @@
 ---
 category: "hero index"
-title: "Developer"
 intro: "I am John Doe"
-content: "I have been working as fullstack developer for more than a year."
+content: "I have been working as fullstack developer for more than a year now."
 ---
 
 **This is the hero section.**
