@@ -1,0 +1,228 @@
+.gatsby-highlight {
+  background-color: #1d1f21;
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  overflow: auto;
+}
+.gatsby-highlight pre[class*="language-"].line-numbers {
+  padding: 0;
+  padding-left: 2.8em;
+  overflow: initial;
+}
+.gatsby-highlight-code-line {
+  background-color: #feb;
+  display: block;
+  margin-right: -1em;
+  margin-left: -1em;
+  padding-right: 1em;
+  padding-left: 0.75em;
+  border-left: 0.25em solid #f99;
+}
+
+/* custom */
+:root{
+  --maxWidth: 730px !important;
+}
+
+/* html */
+.section-parent-wrapper{
+  background-color: #f7fafc;
+}
+.header-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 10px 0px !important;
+}
+.hero-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 40px 0px !important;
+}
+.project-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 40px 0px !important;
+}
+.blog-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 40px 0px !important;
+}
+.template-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 40px 0px !important;
+}
+.footer-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 40px 0px !important;
+}
+.error-section-wrapper{
+  max-width: var(--maxWidth);
+  width: 100% !important;
+  margin: 0px auto !important;
+  padding: 40px 0px !important;
+}
+
+/* header */
+.nav-ul{
+  list-style: none;
+  float: right;
+  margin-top: 15px;
+}
+.nav-link{
+  color: black;
+  padding: 0px !important;
+}
+.nav-link:hover{
+  color: black;
+  border-bottom: 2px solid #b6b6b6;
+}
+.active-nav-link{
+  color: black;
+  border-bottom: 2px solid #b6b6b6;
+}
+
+/* hero */
+.hero-title{
+  color: #2a55a3;
+  font-size: 1rem;
+}
+.hero-intro{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.hero-content{
+  font-size: 1.15rem;
+}
+
+/* project */
+.project-title{
+  color: #2a55a3;
+  font-size: 1.2rem;
+}
+.btn-custom{
+  background-color: #468bdf !important;
+  color: white !important;
+  border-color: #468bdf !important;
+}
+.btn-custom:hover{
+  background-color: #4e79c6 !important;
+  color: white !important;
+  border-color: #4e79c6 !important;
+}
+
+/* blog */
+.blog-index-title{
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+}
+.post-ul{
+  list-style: none;
+  padding: 0px;
+}
+.post-list{
+  margin: 40px 0px ;
+}
+.post-title-link:link,
+.post-title-link:hover,
+.post-title-link:active,
+.post-title-link:visited
+{
+  color: #4878cf;
+  text-decoration: none !important;
+  font-size: 1.1em;
+  font-weight: 800;
+}
+.post-excerpt{
+  font-size: 1.2rem;
+}
+.post-title{
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+.html-post-description{
+  margin: 50px auto;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: 1em 10px .1em 10px;
+}
+
+/* footer */
+.footer-text{
+  font-size: 1.1rem;
+}
+.footer-text a{
+  color: #2a55a3;
+  font-weight: 600;
+}
+
+/* error page - 404 */
+.error-title{
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.link-style{
+  border-bottom: 1px solid #2a55a3;
+  color: #2a55a3;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.next-node{
+  float: right;
+}
+.badge-custom{
+  font-size: 1rem !important;
+  padding: 7px !important;
+  font-weight: 500 !important;
+  background-color: #e9eff4 !important;
+  color: #6c757d !important;
+}
+.badge-custom:hover{
+  background-color: #dbe3e9 !important;
+}
+
+@media (max-width: 750px){
+  .header-section-wrapper{
+    padding: 40px 15px !important;
+  }
+
+  .hero-section-wrapper{
+    padding: 40px 15px !important;
+  }
+
+  .project-section-wrapper{
+    padding: 40px 15px !important;
+  }
+
+  .blog-section-wrapper{
+    padding: 40px 15px !important;
+  }
+
+  .template-section-wrapper{
+    padding: 40px !important;
+  }
+
+  .footer-section-wrapper{
+    padding: 40px 15px !important;
+  }
+
+  .error-section-wrapper{
+    padding: 40px 15px !important;    
+  }
+}
