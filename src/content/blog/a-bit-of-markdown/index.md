@@ -3,7 +3,7 @@ category: "blog"
 title: "A bit of Markdown"
 date: "2021-02-04"
 published: true
-tags: "markdown,mardkdown-guides"
+tags: "Markdown,Markdown Guides"
 ---
 
 # Markdown: Syntax
